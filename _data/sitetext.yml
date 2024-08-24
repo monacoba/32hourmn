@@ -11,123 +11,171 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: 32-Hour Workweek Minnesota
+    text: We are taking back our time
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Tell Me More"
+    text: "We're joining a growing global movement for a shorter workweek that is already demonstrating that this shift is possible. We want a 32-hour workweek, with no loss in pay or benefits, for all workers."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "100-80-100 Model"
+        desc: "100% Pay, 80% time, 100% Output. Over 300 companies around the world have participated in pilots in an effort to
+
+        - Attract and retain workers
+
+        - Reduce burnout
+
+        - Increase productivity
+        
+        - Give workers some of their lives back"
+        icon: fas fa-percent #find more at https://fontawesome.com/icons
+      - title: "Big Benefit"
+        desc: "An extra 52 days off per year. That’s time for people to spend with their families and friends, build community, participate in democracy, garden, write a book, rest, and return to work each week rejuvenated and focused on delivering."
+        icon: fas fa-calendar-plus
+      - title: "We've done it before"
+        quote: "Organized labor looks on the forty-hour week in the United States as nothing more or less than a way station in labor’s steady progress toward a universal thirty-hour week or less."
+        desc: "_American Workers Delegation to the International Labor Organization, 1935, NY Times_"
+        icon: fas fa-landmark
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Our Time Stories"
+    text: "These are some the stories, hopes, and dreams for the people who need more time in their lives."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close Story"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "32-hour workweek adoption in the US"
+    text: "The last 5 years in particular have seen a huge boost in organizations opting in to the 32 hour workweek.These are just a handful of the hundreds of organizations that have made the shift."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
+      - title: "Bit.io and City of Newburn Heights, OH"
         year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+        desc: "The San Francisco-based software company has launched a trial for a four-day, 32-hour workweek since it was established in 2019. The policy has proven so successful that the company has kept it running."
+        #image: assets/img/timeline/bit_io.png
+        alt:
+      - title: "City of Morganstown, WV and Buffer"
+        year: "2020"
+        desc: "Buffer CEO Joel Gascoigne said the change was about 'well-being, mental health, and placing us as humans and our families first.'"
+        #image: assets/img/timeline/buffer.jpg
+        alt:
+      - title: "Bolder County Clerk and Recorder and Awin Marketing"
+        year: "2021"
+        desc: "Affiliate marketing platform Arwin launched its first six-month trial of a 4.5-day workweek in December 2020. From early 2021, the company announced its entire team around the world was moving to a four-day workweek with no reduction in salaries."
+        #image: assets/img/timeline/awin.png
+        alt:
+      - title: "Advanced RV, LLC"
+        year: "2022"
+        desc: ""
+        #image: assets/img/timeline/arv.png
+        alt: 
+      - title: "San Juan County WA, Golden CO Police Department, Green Lantern Solar, UAW strike demands"
+        year: "2023"
+        desc: "AFSCME workers at San Juan County won a 32-hour workweek AND wage increases. And when UAW went on strike and included the 32 hour workweek in their demands, they didn’t win it this past year, but they did win historic wage increases."
+        #image: assets/img/timeline/green lantern solar.png
+        alt:
+      - title: "Healthport (previously Lower Shore Clinic)"
+        year: "2024"
+        desc: ""
+        #image: assets/img/timeline/healthport.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "We want <br> Minnesota to <br> be next!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Who we are"
+    #text: "Who we are"
+    body: "We are parents, grandparents, aunts, uncles, siblings, neighbors, friends, writers, readers, gardeners, hikers, gamers, dancers, boxers, travelers, homebodies, dreamers, and doers, and we know that in this short life, we all deserve more time to do the things we love, with the people we love, in the places we love."
     section: about
 
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    title: "U.S. Companies who have switched to a 32-hour work week"
+    horizontal-scrolling: "no" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "Kickstarter"
+        url: https://updates.kickstarter.com/kickstarters-four-day-work-week/
+        logo: assets/img/clients/kickstarter.png
+      - title: "Buffer"
+        url: https://buffer.com/journey
+        logo: assets/img/clients/buffer.png
+      - title: "Awin Marketing"
+        url: https://www.awin.com/us/careers
+        logo: assets/img/clients/awin.png
+      - title: "Advanced RV, LLC"
+        url: https://advanced-rv.com/our-story
+        logo: assets/img/clients/arv.png
+      - title: "Green Lantern Solar"
+        url: https://greenlanternsolar.com/green-lantern-solar-embraces-workforce-improvement-adopts-four-day-work-week/
+        logo: assets/img/clients/green lantern solar.png
+      - title: "Healthport (previously Lower Shore Clinic)"
+        url: https://www.healthport.org/careers/
+        logo: assets/img/clients/healthport.jpg
+  
+  faq:
+    title: "Frequently Asked Questions"
+    section: faq
+    questions:
+      - question: "There is not enough time for everything I have to do. Wouldn’t this make life more stressful?"
+        answer: "When San Juan County employees transitioned to a 32-hour workweek, [78% of workers](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512) reported a positive increase in mental health. 
+        
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          One of the important things a 32-hour workweek does is require workplaces to address existing issues. That could look like shortening unnecessarily long meetings or cutting out unnecessary meetings completely. [Move Minnesota](https://www.movemn.org), which adopted the 32-hour workweek, now has a policy that every meeting must have an owner, an agenda, and clear deliverables. Or it could require agencies to stop piling more work onto other workers when there is a vacant position, and actually drive the hiring process forward to fill those needed roles. 
+          
+
+          Moving to a 32-hour workweek would also be a huge benefit to talent recruitment and retention, increasing both the pool of applicants and the length of service of the workers themselves. With a 32-hour workweek, the cost of workers leaving decreases because they leave less often. In 61 companies that piloted the 4-Day Workweek in the UK, staff turnover reduced 57%. [Meet and Confer](https://mape.org/committees/meet-and-confer-committees) is an essential place for the union to work out the implementation of a 32-hour workweek and raise the issues that need to be addressed for the transition to be a success."
+        quote: "The number of applicants has spiked and the time it takes to fill positions has dropped by 62%." 
+        citation: "[San Juan County Six-Month Check-in Report](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512)"
+        id: "q1"
+      - question: "Would this impact my healthcare benefits?"
+        answer: "No. A 32-hour workweek would be considered full-time employment and healthcare would not be impacted by this change."
+      - question: "How would this work in X industry or agency?"
+        answer: "All around the country we see examples of the 32-hour workweek across industries - [a police department in CO](https://www.cbsnews.com/colorado/news/golden-police-department-4-day-work-week-productivity-up-better-community-connection/), [senior care workers in WI](https://www.youtube.com/watch?v=hbHzrdHSZGc), [Manufacturing in OH](https://www.npr.org/2023/11/11/1207991399/4-four-day-work-week-manufacturing-work-life-balance), and [county workers in WA](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512). It will take some figuring out, and it’s really important to make the process intentional, but there is a path for everyone to the 32-hour workweek."
+      - question: "Won’t this feed into negative stereotypes about government employees?"
+        answer: "The 32-hour workweek is [popular with the public](https://www.dataforprogress.org/datasets/polling-on-32-hour-work-week)! 
+          
+
+          We believe all workers deserve more time ‘for what we will.’ We’re not alone in this demand. We’re joining a growing movement of workers across industries who are pushing for a 32-hour workweek. As a union we can lead the way toward a societal shift that benefits all workers, just as labor unions led the way to the 40 hour workweek a hundred years ago. 
+          
+
+          Additionally, studies have shown that employees, including those in the public sector, often become more productive and efficient with a shorter workweek. By focusing on delivering high-quality services in less time, government employees can demonstrate their dedication and effectiveness. Improved work-life balance can lead to higher job satisfaction and morale, which can translate into better service for the community. This change isn't only about working less, but about working smarter and showing that government employees are committed to excellence and innovation."
+        id: "q2"
+      - question: "How will this work for Field, On-Call or other kinds of workers in MAPE?"
+        answer: "The 32-hour workweek will look different for different sectors. While some people might be working a four-day week M-Th, others might have their 32-hours spread across the week to accommodate for being on-call or ensuring that a specific area is always staffed 24/7. The important aspect is that 32-hours is considered full-time and people would be compensated with overtime for any hours they work beyond the 32 hours."
+        id: "q3"
+      - question: "What are the cost-saving benefits of a 4 day workweek?"
+        answer: "
+              - Turnover is [estimated](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx) to cost at least ½ of an employee’s salary. Reducing working hours with no loss in pay drastically lowers turnover rates, with [resignations down 22%](https://www.help.senate.gov/imo/media/doc/fe56f2c1-e4ed-ae6c-12a1-570c703651b9/Dr.%20Schor%20HELP%20Testimony%203-14-24.pdf). 
+
+              - In pilot programs, employers averaged a [30% increase in revenue](https://www.help.senate.gov/imo/media/doc/fe56f2c1-e4ed-ae6c-12a1-570c703651b9/Dr.%20Schor%20HELP%20Testimony%203-14-24.pdf). 
+
+              - Some organizations - if moving to a 4 day workweek - can save on 1 day of office infrastructure costs (cleaning, supplies, utilities)"
+        id: "q4"
+      - question: "I’m worried that pushing for this will mean we don’t get wage increases."
+        answer: "Let’s take a lesson from the Can Company workers in 1937 who won wages and time! Having multiple bold demands can strengthen us in contract negotiations. Last year United Auto Workers included a 32-hour workweek in their demands, and while they didn’t win it, they did win [historic pay raises](https://www.npr.org/2023/11/16/1212381342/gm-autoworkers-vote-yes-approve-uaw-contract-ford-stellantis#:~:text=But%20workers%20will%20get%20pay%20increases%20of%20at,money%20will%20see%20their%20pay%20more%20than%20double.). AFSCME in San Juan County won both a 32-hour workweek and wage increases."
+      - question: "How would this impact vacation time?"
+        answer: "This is something the negotiating team will have to work out with input from members, but we want no change to vacation and sick time accrual."
+        quote: “Our members have had 416 hours per year of personal time restored to them with no impacts to health or retirement benefits. The change in hours has encouraged some members to stay in their positions and has helped to attract new staff. The burdens placed on many of our public servants have been reduced in ways that allow for a healthier balance between the demands of their jobs and those of their personal lives.”
+        citation: "AFSCME Council 2 Local 1849 Executive Committee, [San Juan County Six-Month Check-in Report](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512)"
+        id: "q5"
+      - question: "Why should employees get paid the same for working less?"
+        answer: "It’s helpful to think of work as output rather than time. Employers and employees exchange 100% pay for 100% output. Although employees will be working fewer hours, added rest and downtime translates to sharpened focus and higher quality output; the same goals - if not more - are achievable! Employers are benefiting from often higher productivity and higher returns from their employees, and employees should be compensated for that output."
+        quote:
+        citation:
+        id: "q6"
+      - question: "Will the 32-hour workweek only work for employees who are in salaried, office or teleworking positions?"
+        answer: "Some positions are the “low hanging fruit” for moving to a 32-hour workweek, including many state jobs. Knowledge work roles that were previously “office work” before hybrid and full-time teleworking became more of the norm are essentially already 32-hour workweeks. Once the unnecessary and overlong meetings, distractions and interruptions, outdated practices, wasteful processes, and poor use of technology are trimmed off the workweek, the 32-hour workweek is blooming.
+
+          For other positions and jobs, moving to the 32-hour workweek might require a deeper level of innovation and organizational redesign, and it’s an opportunity for creativity. We’re already seeing the 32-hour workweek work for industries that might seem challenging, like 24/7 emergency services - Police Departments in [Ohio](https://www.cleveland.com/news/2019/12/newburgh-heights-approves-32-hour-work-week-with-no-pay-cut-for-village-employees.html) and [Colorado](https://www.cbsnews.com/colorado/news/golden-police-department-4-day-work-week-productivity-up-better-community-connection/) have made the switch. As have healthcare and senior care employers in [New Jersey](https://www.npr.org/2024/06/26/nx-s1-5013956/4-four-day-week-work-life-balance-nurse-managers) and [Wisconsin](https://www.youtube.com/watch?v=hbHzrdHSZGc). "
+        quote: “Due to the positive trends of data across the Department, the City determined it will continue the pilot for an additional six months through July 1, 2024, and will look to expand the pilot to other departments across the city using similar evaluation methods and metrics."
+        citation: "City of Golden 6-month Update on Police Department Compressed Workweek Pilot"
+        id: "q7"
 
   contact:
     title: "Contact Us"
@@ -146,17 +194,17 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -165,158 +213,7 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+#https://www.newsweek.com/every-us-company-4-day-workweek-full-list-1697943
+#https://advanced-rv.com/our-story
+#https://www.healthport.org/careers/
+#https://updates.kickstarter.com/kickstarters-four-day-work-week/

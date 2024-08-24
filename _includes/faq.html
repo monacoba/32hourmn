@@ -1,0 +1,114 @@
+<!-- FAQ -->
+<style>
+  .collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border-bottom: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .excited, .collapsible:hover {
+  background-color: #ffed88;
+}
+  .collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .excited:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ececec;
+  }
+  </style>
+
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].faq.section | default: "faq" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].faq.title | default: "Frequently Asked Questions" }}</h2>
+        </div>
+      </div>
+	  
+      <div class="row ">
+	  {% for question in site.data.sitetext[site.locale].faq.questions %}
+        <!--<div class="col-lg-12 text-left">
+          <h4 class="service-heading">{{ question.question | markdownify }}</h4>
+          {% if question.answer %}<div class = "text-muted text-left">{{ question.answer | markdownify }}</div>{% endif %}
+          {% if question.quote %}<div class = "text-muted text-left">{{ question.quote | markdownify }}</div>{% endif %}
+          {% if question.citation %}<div class= "text-muted text-left">{{ question.citation | markdownify }}</div>{% endif %}
+        </div>-->
+        <button type="button" class="collapsible"><strong>{{ question.question }}</strong></button>
+        <div class="content">
+          <p>{% if question.answer %}{{ question.answer | markdownify }}{% endif %}</p>
+          <p>{% if question.quote %}{{ question.quote | markdownify }}{% endif %}</p>
+          <p>{% if question.citation %}{{ question.citation | markdownify }}{% endif %}</p>
+        </div>
+	  {% endfor %}
+      </div>
+    </div>
+  </section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.faq.section | default: "Frequently Asked Questions" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-heading text-uppercase text-center">{{ site.data.sitetext.faq.title | default: "Frequently Asked Questions" }}</h2>
+      </div>
+    </div>
+  
+    <div class="row text-left">
+  {% for service in site.data.sitetext.faq.questions %}
+      <!--<div class="col-lg-12">
+        <h4 class="service-heading">{{ question.question | markdownify }}</h4>
+        {% if question.answer %}<div class = "text-muted text-left">{{ question.answer | markdownify }}</div>{% endif %}
+        {% if question.quote %}<div class = "text-muted text-left">{{ question.quote | markdownify }}</div>{% endif %}
+        {% if question.citation %}<div class= "text-muted text-left">{{ question.citation | markdownify }}</div>{% endif %}
+      </div>-->
+      <button type="button" class="collapsible"><strong>{{ question.question }}</strong></button>
+      <div class="content">
+        <p>{% if question.answer %}{{ question.answer | markdownify }}{% endif %}</p>
+        <p>{% if question.quote %}{{ question.quote | markdownify }}{% endif %}</p>
+        <p>{% if question.citation %}{{ question.citation | markdownify }}{% endif %}</p>
+      </div>
+  {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("excited");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+<!-- End FAQ -->

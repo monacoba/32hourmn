@@ -1,18 +1,16 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/05-full.jpg
+title: Andrew Ulasich
+subtitle: Time to be a dad
+image: assets/img/portfolio/05-thumbnail.jpg
 alt: 
 
 caption:
-  title: Southwest
-  subtitle: Website Design
+  title: Andrew Ulasich
+  subtitle: Time to be a dad
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+In my previous job I worked a lot of hours trying to make the world a better place, but didn't have the emotional or mental capacity to be present with my own son, Rowan. He deserves a dad who has time and energy to parent well. I like to think of the three-day weekend as 1 day for rest, 1 day for play, 1 day for laundry and groceries. 
 
 {:.list-inline}
-- Date: October 2019
-- Client: Southwest
-- Category: Website Design
+- Date: May 2023
 
