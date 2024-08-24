@@ -96,7 +96,8 @@ en: &DEFAULT_EN
   clients:
     section: clients
     max-height: 100px
-    title: "U.S. Companies who have switched to a 32-hour work week"
+    title: "Who's in?"
+    text: "Below is a list of U.S. companies and organizations how have switched to a 32-hour work week"
     horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "Kickstarter"
@@ -179,7 +180,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
