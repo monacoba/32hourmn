@@ -1,4 +1,11 @@
 <!-- Footer -->
+<style>
+  a.legal_link:link {color:#004b6e;}
+  a.legal_link:visited {color:#004b6e;}
+  a.legal_link:hover {color:#004b6e;
+                      text-decoration: underline;}
+</style>
+
 <footer class="footer" id="footer" style="background-color: white">
     <div class="container">
       {% if site.locale and site.locale != "" and site.locale != nil %}
@@ -26,7 +33,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="legal"
+              <a class = "legal_link" href="legal"
                 >{{ site.data.sitetext[site.locale].footer.legal | default:
                 "Privacy Policy" }}</a
               >
