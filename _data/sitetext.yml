@@ -85,7 +85,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "We want <br> Minnesota to <br> be next!"
+    end: "We want <br> MN to <br> be next!"
 
   about:
     title: "Who we are"
