@@ -137,8 +137,18 @@ en: &DEFAULT_EN
         quote: “The number of applicants has spiked and the time it takes to fill positions has dropped by 62%.” 
         citation: "[San Juan County Six-Month Check-in Report](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512)"
         id: "q1"
+      - question: "What if I want to work more than 32 hours?"
+        answer: "We all have some weeks where we may need to meet a deadline or have some other pressing need to work more than our assigned schedule. We would anticipate overtime requests working the same way they do now, but replace “40” with “32.”
+
+
+        Our world raises and socializes us to identify ourselves with our jobs, saying that we should “do what we love.” With all the things in this world that we could do and explore, only having one thing you love feels pretty limiting. Have you ever thought about who you are outside of work? When you meet somebody new, do you almost always find yourself asking first what their job is, then running out of things to say? What are you most proud of doing in your life outside of work? Having more time lets us find what else can define and fulfill us, and allows us to experience the world in a deeper way."
       - question: "Would this impact my healthcare benefits?"
         answer: "No. A 32-hour workweek would be considered full-time employment and healthcare would not be impacted by this change."
+      - question: "Would this impact my pension?"
+        answer: "Corrections workers asked if this would impact their pension plan which allows them to retire at 55 if they've got 10 years at 75% of their time with offenders. We spoke with business agents and met with our MAPE's Government Affairs lead to learn that no, this wouldn't impact that.
+
+
+        For non-corrections folks, we are seeking a 32-hr week with no change to benefits, meaning we are not negotiating lower pension rates for fewer hours worked. We benefit enormously from our DOC union siblings already having contract language that allows for less time worked while keeping full benefits."
       - question: "How would this work in X industry or agency?"
         answer: "All around the country we see examples of the 32-hour workweek across industries - [a police department in CO](https://www.cbsnews.com/colorado/news/golden-police-department-4-day-work-week-productivity-up-better-community-connection/), [senior care workers in WI](https://www.youtube.com/watch?v=hbHzrdHSZGc), [Manufacturing in OH](https://www.npr.org/2023/11/11/1207991399/4-four-day-work-week-manufacturing-work-life-balance), and [county workers in WA](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512). It will take some figuring out, and it’s really important to make the process intentional, but there is a path for everyone to the 32-hour workweek."
       - question: "Won’t this feed into negative stereotypes about government employees?"
@@ -168,11 +178,14 @@ en: &DEFAULT_EN
         quote: “Our members have had 416 hours per year of personal time restored to them with no impacts to health or retirement benefits. The change in hours has encouraged some members to stay in their positions and has helped to attract new staff. The burdens placed on many of our public servants have been reduced in ways that allow for a healthier balance between the demands of their jobs and those of their personal lives.”
         citation: "AFSCME Council 2 Local 1849 Executive Committee, [San Juan County Six-Month Check-in Report](https://engage.sanjuancountywa.gov/20872/widgets/81869/documents/54512)"
         id: "q5"
+
       - question: "Why should employees get paid the same for working less?"
         answer: "It’s helpful to think of work as output rather than time. Employers and employees exchange 100% pay for 100% output. Although employees will be working fewer hours, added rest and downtime translates to sharpened focus and higher quality output; the same goals - if not more - are achievable! Employers are benefiting from often higher productivity and higher returns from their employees, and employees should be compensated for that output."
         quote:
         citation:
         id: "q6"
+      - question: "I’m already exempt from overtime pay and work more than 40 hours per week regardless. Would this even help me?"
+        answer: "Exempt workers whose time is already abused as they often work over 40 hours and aren't compensated didn't see how this campaign would benefit them. So we've put together a Contract Language team and are working on ways to make sure this is a benefit that would reach all workers, exempt and non-exempt alike."
       - question: "Will the 32-hour workweek only work for employees who are in salaried, office or teleworking positions?"
         answer: "Some positions are the “low hanging fruit” for moving to a 32-hour workweek, including many state jobs. Knowledge work roles that were previously “office work” before hybrid and full-time teleworking became more of the norm are essentially already 32-hour workweeks. Once the unnecessary and overlong meetings, distractions and interruptions, outdated practices, wasteful processes, and poor use of technology are trimmed off the workweek, the 32-hour workweek is blooming.
 
