@@ -1,12 +1,12 @@
 ---
-title: "Barbara Monaco"
-subtitle: "What would it mean for you to have more of your own time?"
+title: Brenda
+subtitle: What would it mean for you to have more of your own time?
 image: assets/img/portfolio/01-thumbnail.jpg
 alt: Paint brushes covered in bright-colored paints
 # full size is 700 x 933 px
 
 caption:
-  title: Barbara Monaco
+  title: Brenda
   subtitle: Time to create
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
   #thumbnail size is 400 x 300 px

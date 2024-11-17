@@ -1,11 +1,11 @@
 ---
-title: Claudia Hochstein
+title: Caroline
 subtitle: Time to be human
 image: assets/img/portfolio/08-thumbnail.png
 alt: 
 
 caption:
-  title: Claudia Hochstein
+  title: Caroline
   subtitle: Time to be human
   thumbnail: assets/img/portfolio/08-thumbnail.png
 ---

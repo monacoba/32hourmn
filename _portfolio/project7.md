@@ -1,11 +1,11 @@
 ---
-title: Brooklyn Petrich
+title: Brooke
 subtitle: Time to raise my child
 image: assets/img/portfolio/07-thumbnail.png
 alt: 
 
 caption:
-  title: Brooklyn Petrich
+  title: Brooke
   subtitle: Time to raise my child
   thumbnail: assets/img/portfolio/07-thumbnail.png
 ---

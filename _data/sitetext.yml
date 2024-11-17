@@ -45,6 +45,10 @@ en: &DEFAULT_EN
     text: "These are some the stories, hopes, and dreams for the people who need more time in their lives."
     section: portfolio
     closebutton: "Close Story"
+  
+  posts:
+    title: "Blog Posts"
+    section: posts
 
   timeline:
     title: "32-hour workweek adoption in the US"

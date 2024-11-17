@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Stories"
       section: portfolio
+    - title: "Blog Posts"
+      section: posts
     - title: "Timeline"
       section: timeline
     - title: "FAQ"
