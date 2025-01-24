@@ -25,9 +25,6 @@ title      : 32-Hour Workweek for Minnesota
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
-analytics:
-  google: #Google Analytics tracking code here
-
 
 markdown: kramdown
 
