@@ -11,20 +11,6 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Tell me more"
-      section: services
-    - title: "Who we are"
-      section: about
-    - title: "Stories"
-      section: portfolio
-    - title: "Timeline"
-      section: timeline
-    - title: "FAQ"
-      section: faq
-    - title: "Who's in?"
-      section: clients
-    - title: "Contact"
-      section: contact
 en-US:
   <<: *DEFAULT_EN
 en-CA:
