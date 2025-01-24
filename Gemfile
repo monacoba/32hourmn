@@ -2,10 +2,10 @@
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
+gem 'bigdecimal', '~> 3.1', '>= 3.1.9'
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag', '~> 2.8'
-  gem 'bigdecimal', '~> 3.1.9'
   # gem "github-pages" # https://github.com/github/pages-gem
 end
 
